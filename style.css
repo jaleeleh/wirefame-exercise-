@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    
+    padding: 50px;
+    background-color: #f1f1f1;
+}
+header{
+    padding: 15px;
+    height: 100px;
+    background-color:gray;
+}
+#logo{
+    float: left;
+    padding-left: 30px;
+    
+}
+nav{
+    margin-left: 40px;
+   
+    
+    
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li a{
+    color: gainsboro;
+    text-decoration: none;
+    
+}
+main{
+    padding: 40px;
+}
+#firstsection{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.images{
+padding-left:25px;
+
+
+}
+#leftSide{
+    float: left;
+}
+#rightSide{
+    width: 410px;
+    float: right;
+    height: 400px;
+    margin-bottom: 20px;
+    overflow: scroll;
+    
+}
+
+h2{ font-weight: bold;
+padding: 10px;
+font-size:large;
+padding-left: 0;
+}
+
+p{
+font-size: small;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: italic;
+font-weight: bold;
+
+}
+
+#secondNav{margin-top: 20px;
+    position: sticky;
+    bottom:8px;
+    
+   
+    
+    }
+
+    #secondNav a {
+        text-decoration: none;
+        color: whitesmoke;
+        background-color: black;
+        padding: 10px;
+        margin-top: 20px;
+        border-radius:4px;}
+        
+           
+
+
+       
+        #secondNav a:hover {
+            color: blueviolet;
+            background-color:lightblue;
+
+        }
+        
+footer{
+    clear: both;
+    background-color:grey;
+    margin-top: 20px;
+    padding: 40px;
+}
+
+
